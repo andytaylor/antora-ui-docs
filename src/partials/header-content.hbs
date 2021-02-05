@@ -1,46 +1,47 @@
-<header class="header">
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
-      <button class="navbar-burger" data-target="topbar-nav">
-        <span></span>
-        <span></span>
-        <span></span>
+<header class="navigation">
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="https://artemiscloud.github.io/website/">
+
+        <img width="250px" class="img-fluid" src="https://artemiscloud.github.io/website/images/logo.png" alt="Artemis Cloud">
+
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
       </button>
-    </div>
-    <div id="topbar-nav" class="navbar-menu">
-      <div class="navbar-end">
-        <a class="navbar-item" href="#">Home</a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Products</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Product A</a>
-            <a class="navbar-item" href="#">Product B</a>
-            <a class="navbar-item" href="#">Product C</a>
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Services</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Service A</a>
-            <a class="navbar-item" href="#">Service B</a>
-            <a class="navbar-item" href="#">Service C</a>
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Resources</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Resource A</a>
-            <a class="navbar-item" href="#">Resource B</a>
-            <a class="navbar-item" href="#">Resource C</a>
-          </div>
-        </div>
-        <div class="navbar-item">
-          <span class="control">
-            <a class="button is-primary" href="#">Download</a>
-          </span>
-        </div>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://artemiscloud.github.io/website/blog">Blog</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://artemiscloud.github.io/website/docs">Documentation</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://artemiscloud.github.io/website/releases">Releases</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://artemiscloud.github.io/website/community">Community</a>
+          </li>
+
+
+        </ul>
+
+
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
